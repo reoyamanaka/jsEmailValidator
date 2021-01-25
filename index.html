@@ -7,12 +7,15 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <h1>Sample Form</h1>
-    <form action="./php/formSubmit.php" method="post" id="formSubmit">
-        
-        
-        
-    </form>
+    <div class="formBox">
+        <h1>Sample Form with Email Validation</h1>
+        <form action="./php/formSubmit.php" method="post" id="formSubmit">
+            <h3>Enter your email:</h3>
+            <input type="email" name="email" placeholder="Email" id="email" required>
+            <input type="submit" name="submit" id="submit" value="Validate and Submit">
+        </form>
+    </div>
+
 
     <script src="./js/main.js"></script>
 </body>
