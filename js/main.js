@@ -1,8 +1,8 @@
 $(document).ready(() => {
     $(() => {
         $('#submit').on('click', (e) => {
-            var mailFormat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-            var email = document.getElementById('email').value;
+            let mailFormat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+            let email = document.getElementById('email').value;
             //check that email is not empty
             if (email === ""){
                 alert('Email required.');
