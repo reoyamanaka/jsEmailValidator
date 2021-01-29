@@ -68,6 +68,7 @@
 * macOS High Sierra Version 10.13.6
 * Adobe Illustrator Version 23.1 (Logo design)
 * PHP 7.3.0
+* Apache 2.4.43
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -80,6 +81,7 @@ To get a local copy up and running follow these simple steps.
   ```sh
   git clone https://github.com/reoyamanaka/jsEmailValidator.git
   ```
+* Install <a href="https://www.php.net/manual/en/install.php">PHP and Apache</a>
 
 ### Installation
 
@@ -87,6 +89,8 @@ To get a local copy up and running follow these simple steps.
    ```sh
    git clone https://github.com/reoyamanaka/jsEmailValidatorTxt.git
    ```
+2. Install <a href="https://www.php.net/manual/en/install.php">PHP and Apache</a>
+
 
 <!-- USAGE -->
 ## Usage
